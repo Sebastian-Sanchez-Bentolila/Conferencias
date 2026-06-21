@@ -65,20 +65,6 @@ El sitio web de Turing Bots ofrece las siguientes funcionalidades y secciones pr
 * **Menú de Navegación Responsivo**: El encabezado incluye un menú de navegación principal con enlaces a las diferentes secciones del sitio. En dispositivos móviles, un botón de "hamburguesa" alterna la visibilidad del menú.
 * **Efectos de Animación CSS**: Elementos como la sección Hero y las tarjetas de equipo presentan animaciones suaves como `fadeInUp`.
 
-## ⚙️ Cómo Usar / Ejecutar el Proyecto
-
-Este es un proyecto web estático y es muy fácil de configurar y visualizar:
-
-1. **Clonar el Repositorio:**
-   ```bash
-   git clone https://github.com/Sebastian-Sanchez-Bentolila/turing.git
-   ```
-2. **Navegar al Directorio del Proyecto:**
-   ```bash
-   cd turing
-   ```
-3. **Abrir los Archivos HTML:** Simplemente abre cualquiera de los archivos `.html` (por ejemplo, `index.html`) en tu navegador web preferido. No se necesita un servidor web local, aunque uno puede usarse para un desarrollo más robusto.
-
 ---
 
 **© 2025 Turing Bots. Todos los derechos reservados.**
