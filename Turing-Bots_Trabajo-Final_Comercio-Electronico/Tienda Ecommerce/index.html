@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing - Soluciones de Automatización</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html"><img src="src/asset/Logotype.svg" alt="Turing Bots Logo"></a>
+            </div>
+            
+            <!-- Botón de menú móvil -->
+            <button class="mobile-menu-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#projects">Proyectos Destacados</a></li>
+                    <li><a href="#testimonials">Clientes</a></li>
+                    <li><a href="#contact" class="cta-button">Cotizar Ahora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Automatizamos tu éxito</h1>
+                <p>Soluciones personalizadas de bots para optimizar tus procesos de atención, ventas y soporte. Impulsamos tu empresa con inteligencia artificial.</p>
+                <!--<a href="#services" class="cta-button">Ver Servicios</a>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <!-- Bot con IA para WhatsApp -->
+                <div class="service-card">
+                    <img src="src/asset/images/robot.jpg" alt="IA WhatsApp Bot">
+                    <div class="service-card-content">
+                        <h3>Agentes de IA</h3>
+                        <p>Soporte avanzado y atención 24/7 con inteligencia artificial.</p>
+                        <ul class="service-features">
+                            <li>Conversación abierta</li>
+                            <li>Comprensión de lenguaje natural</li>
+                            <li>Respuestas contextuales</li>
+                            <li>Entrenamiento personalizado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bot sin IA para WhatsApp -->
+                <div class="service-card">
+                    <img src="src/asset/images/whatsapp-icon-6953523_1280.jpg" alt="WhatsApp Bot">
+                    <div class="service-card-content">
+                        <h3>Chatbots Programados</h3>
+                        <p>Ideal para atención básica, reservas y preguntas frecuentes. No cuenta con IA</p>
+                        <ul class="service-features">
+                            <li>Menú interactivo</li>
+                            <li>Respuestas rápidas</li>
+                            <li>Derivación a humano</li>
+                            <li>Respuestas predefinidas</li>
+                        </ul>
+                        <!--<div class="price">Desde $299</div>
+                        <button class="cta-button" onclick="openModal('whatsapp-bot')">Más Información</button>-->
+                    </div>
+                </div>
+                
+                <!-- Bot sin IA para Redes Sociales -->
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Redes Sociales Bot">
+                    <div class="service-card-content">
+                        <h3>Asistencia 360°; Redes Sociales</h3>
+                        <p>Gestiona consultas frecuentes y promociones automáticamente. Trabajamos con tiendas E-commerce y plataformas como Instagram, Facebook o Telegram.</p>
+                        <ul class="service-features">
+                            <li>Respuestas automáticas</li>
+                            <li>Menú con botones</li>
+                            <li>Mensajes fuera de horario</li>
+                            <li>Activación por palabras clave</li>
+                        </ul>
+                        <!--<div class="price">Desde $349</div>
+                        <button class="cta-button" onclick="openModal('social-bot')">Más Información</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section - Versión Profesional -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <br><br>
+
+                    <div class="values-container">
+                        <h3 class="values-title">Nuestros Valores Fundamentales</h3>
+                        <div class="values-grid">
+                            <div class="value-card">
+                                <i class="fas fa-lightbulb"></i>
+                                <h4>Innovación Constante</h4>
+                                <p>Nos mantenemos a la vanguardia tecnológica para ofrecer soluciones disruptivas.</p>
+                            </div>
+                            <div class="value-card">
+                                <i class="fas fa-handshake"></i>
+                                <h4>Asociación Estratégica</h4>
+                                <p>Nos consideramos una extensión de tu equipo, alineados con tus objetivos.</p>
+                            </div>
+                            <div class="value-card">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>Resultados Medibles</h4>
+                                <p>Cada solución incluye métricas claras para evaluar el ROI.</p>
+                            </div>
+                            <div class="value-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>Seguridad Garantizada</h4>
+                                <p>Implementamos los más altos estándares de protección de datos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-highlight">
+                        <div class="team-content">
+                            <h3>Expertise Combinado</h3>
+                            <p>Nuestro equipo multidisciplinario reúne más de 10 años de experiencia combinada en IA, desarrollo de software y experiencia de usuario, especializados en soluciones conversacionales.</p>
+                            <div class="expertise-areas">
+                                <span>Machine Learning</span>
+                                <span>Procesamiento de Lenguaje Natural</span>
+                                <span>Integraciones API</span>
+                                <span>Diseño Conversacional</span>
+                            </div>
+                        </div>
+                        <div class="team-image">
+                            <img src="src/asset/images/team.jpg" alt="Equipo Turing">
+                        </div>
+                        <a href="empresa.html" class="cta-button">Conocer más sobre nosotros</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Proyectos Destacados</h2>
+            
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/asset/images/Unab-1.jpg" alt="Bot UNAB">
+                        <div class="project-overlay">
+                            <a href="https://www.unab.edu.ar/" target="_blank" class="project-link">Probar Bot <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bot con IA para WhatsApp - UNAB</h3>
+                        <p class="project-description">Desarrollo de un asistente virtual con inteligencia artificial para la Universidad Nacional de Guillermo Brown, capaz de responder consultas académicas, administrativas y de inscripción las 24 horas.</p>
+                        <div class="project-details">
+                            <div class="project-feature">
+                                <i class="fas fa-robot"></i>
+                                <span>Inteligencia Artificial</span>
+                            </div>
+                            <div class="project-feature">
+                                <i class="fas fa-comments"></i>
+                                <span>Chat interactivo</span>
+                            </div>
+                            <div class="project-feature">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Integración con datos académicos</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Tecnologías:</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">RAG</span>
+                            <span class="tech-tag">WhatsApp API</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="src/asset/images/reloj.jpg" alt="Chatbot Zonas Horarias">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">Demo Disponible <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Chatbot para Zonas Horarias</h3>
+                        <p class="project-description">Solución interactiva para obervar y calcular la diferencia horaria en todos los paises del mundo, integrada en una aplicación web desarrollada con Streamlit en Python.</p>
+                        <div class="project-details">
+                            <div class="project-feature">
+                                <i class="fas fa-square-root-alt"></i>
+                                <span>Conversión de hora</span>
+                            </div>
+                            <div class="project-feature">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Explorar zonas horarias</span>
+                            </div>
+                            <div class="project-feature">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Historial del consulta</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Tecnologías:</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Datetime</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"El bot que desarrolló Turing para nuestro restaurante ha reducido nuestro tiempo de respuesta en un 70%. Ahora gestionamos reservas y consultas frecuentes automáticamente."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Cliente 1">
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Dueña - Restaurante La Parrilla</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"Increíble el trabajo de Turing. El bot con IA que nos crearon para WhatsApp maneja el 80% de las consultas de nuestros clientes sin intervención humana."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Cliente 2">
+                        <div class="author-info">
+                            <h4>Carlos Mendoza</h4>
+                            <p>CEO - Tiendas Mendoza</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p>"La atención personalizada y el seguimiento post-venta hacen que Turing sea nuestro proveedor de confianza para automatización. Ya vamos por nuestro tercer bot."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Cliente 3">
+                        <div class="author-info">
+                            <h4>Laura Fernández</h4>
+                            <p>Directora - Clínica Dental Sonrisas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>¿Listo para automatizar tu negocio?</h3>
+                    <p>Contáctanos para una consulta gratuita y descubre cómo podemos optimizar tus procesos con nuestras soluciones personalizadas.</p>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>turingautomatizations@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+54 11 1234-5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+54 11 8765-4321</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form 
+                        action="https://formsubmit.co/sebastiansb3004@gmail.com" 
+                        method="POST"
+                    >
+
+                        <!-- Campos ocultos para configuración -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://turingbots.netlify.app/gracias.html"> 
+                        <input type="hidden" name="_template" value="table"> 
+                        <input type="hidden" name="_subject" value="Nuevo mensaje desde Turing Bots - Tienda Ecommerce">
+
+                        <!-- Campos del formulario -->
+                        <input type="text" name="Nombre" placeholder="Nombre completo" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="tel" name="Teléfono" placeholder="Teléfono" pattern="[0-9]+" title="Solo números, sin espacios ni caracteres especiales" required>
+                        <select name="Servicio" required>
+                            <option value="" disabled selected>Selecciona un servicio</option>
+                            <option value="Asistente Virtual WhatsApp">Asistente Virtual para WhatsApp</option>
+                            <option value="ChatBot WhatsApp">ChatBot para WhatsApp</option>
+                            <option value="Bot Redes Sociales">Bot para Redes Sociales</option>
+                            <option value="Bot para Página/Tienda Web">Bot para Página Web</option>
+                            <option value="Otros servicios">Otro servicio</option>
+                        </select>
+                        <textarea name="Mensaje" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <img src="src/asset/Logotype.svg" alt="Turing Bots Logo" style="height: 40px;">
+                            <!--<span class="logo-text">TURING</span>-->
+                        </div>
+                        <p>Bots inteligentes para empresas que crecen.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/turingbots/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/TuringAutoOk"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/turingbots/"><i class="fab fa-x"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <div class="footer-links">
+                        <h3>Servicios</h3>
+                        <ul>
+                            <li><a href="index.html#services">Bots para WhatsApp</a></li>
+                            <li><a href="index.html#services">Bots para Redes Sociales</a></li>
+                            <li><a href="index.html#services">Bots con Inteligencia Artificial</a></li>
+                            <li><a href="index.html#services">Bots para Páginas Web</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <div class="footer-links">
+                        <h3>Empresa</h3>
+                        <ul>
+                            <li><a href="empresa.html">Nosotros</a></li>
+                            <li><a href="empresa.html">Misión, Visión y Valores</a></li>
+                            <li><a href="politica_privacidad.html">Políticas de Privacidad</a></li>
+                            <li><a href="terminos.html#terminos">Términos de Servicio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <div class="footer-links">
+                        <h3>Contacto</h3>
+                        <ul>
+                            <li><a href="#contact">Cotizar proyecto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Turing Bots. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="serviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle">Título del Servicio</h2>
+            </div>
+            <div class="modal-body" id="modalBody">
+                Contenido del modal...
+            </div>
+            <div class="modal-footer">
+                <button class="cta-button" onclick="closeModal()">Cerrar</button>
+                <button class="cta-button" style="background-color: var(--cobalt-blue); margin-left: 10px;" onclick="location.href='#contact'">Contactar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
